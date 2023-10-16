@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class ApiConnectionService {
 
   constructor(private http: HttpClient, private router: Router) { }
-  baseUrl = 'http://13.53.134.244:8081/api/v1/tweets'
+  baseUrl = 'http://16.170.228.195:8081/api/v1/tweets'
 
   load_user_tweets(user_id: string) {
     const headers = { 'content-type': 'application/json', 'Access-Control-Allow-Origin': '*' };
@@ -34,6 +34,6 @@ export class ApiConnectionService {
 
   get_contact() {
     const headers = { 'content-type': 'application/json', 'Access-Control-Allow-Origin': '*' };
-    return this.http.get('http://13.53.134.244:8082/team', { headers })
+    return this.http.get('http://16.170.228.195:8082/team', { headers })
   }
 }
