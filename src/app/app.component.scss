@@ -8,8 +8,29 @@
 .badge-success {
     background: #d4edda;
     color: #155724 !important;
-    display: block !important;
     width: fit-content !important;
+    margin-right: 0.5rem;
+}
+
+.badge-danger {
+  background: #f21717e8;
+  color: white !important;
+  width: fit-content !important;
+  margin-right: 1rem;
+}
+
+.badge-neutral {
+  background: #ffc107;
+  color: #212529 !important;
+  width: fit-content !important;
+  margin-right: 1rem;
+}
+
+.badge-positive {
+  background-color: #28a745;
+  color: #fff !important;
+  width: fit-content !important;
+  margin-right: 1rem;
 }
 
   :host {
